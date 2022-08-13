@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+
+*{
+    padding: 0;
+    margin:0;  
+    /* font-family: 'Orbitron', sans-serif;   */
+}
+/* .container{
+    max-width: 78rem;
+} */
+.logo{
+    width:110px;
+}
+.navbar-container .list .list-item {
+    cursor:none
+}
+body{
+    overflow: hidden;
+}
+.navbar-container
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin:2.5rem 8rem;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.list{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item{
+    list-style: none;
+    margin: 1rem 1rem;
+}
+.navbar-container ul :first-child > a{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration:underline;
+}
+a{
+    color: #1f1f1f;
+    text-decoration: none;
+}
+.search-icon{
+    position: absolute;
+    right: 260px;
+    width:40px;
+    cursor: pointer;
+}
+a:hover{
+    font-size:larger;
+    text-decoration: underline;
+}
+
+button{
+    background-color: transparent;
+    border-radius: .6rem;
+    width:8rem;
+    height: 2rem;
+    
+    font-size: 20px;
+    font-weight: 100;
+    font-family:"Poppins", Helvetica, sans-serif
+}
+
+.hero-container{
+    display: flex;
+    gap: 5rem;
+    margin:5rem 8rem 2.5rem 8rem;
+    position: relative;
+}
+.hero-pic {
+    position: absolute;
+    top:-10px;
+   
+}
+
+.hero-pic > img{
+    
+    width:400px;
+}
+.square > img{
+    
+    width:290px;
+}
+ .square{
+    position: absolute;
+    top: 250px;
+    left:170px;
+} 
+
+.globe>img{
+    position: absolute;
+    top:-50px;
+    left:53%;
+    width:70px;
+    
+}
+
+.star > img{
+    position: absolute;
+    top:-15px;
+    right:0%;
+    width:70px;
+}
+.hero-container-right{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading{
+    margin-top: 5rem;
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.hero-description{
+    
+    margin-left: 20rem;
+    margin-right:1rem;
+    text-align: center;
+    font-size: 12.5px;
+    width: 50%;
+    font-family:"Poppins", Helvetica, sans-serif;
+    
+}
+.button-email{
+    position: relative;
+    top:5rem;
+    left: 10rem;
+    width: 14rem;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+.button-join{
+    position: relative;
+    top:5rem;
+    left: 10rem;
+    width: 8rem;
+    background-color: #1f1f1f;
+    color: azure;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+
+}
+h4{
+    position: relative;
+    /* bottom: -12rem; */
+    top: 120px;
+    left: 12rem;
+    font-size: larger;
+    font-weight: 500;
+
+}
+.icons{
+    position: relative;
+    
+    top: 130px;
+    left: 10rem;
+    
+}
+.star2 > img{
+   position: relative;
+   top: 200px;
+   left: -50px;
+   width: 50px;
+}
+.icons > span > img {
+   
+    cursor: pointer;
+}
+
