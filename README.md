@@ -1,2 +1,2 @@
-# Project-1-Street-Style-Landing-Page
+Street-Style-Landing-Page
 Live Link: https://pa-street-style-landing-page.netlify.app/
